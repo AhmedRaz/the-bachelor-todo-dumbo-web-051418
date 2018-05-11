@@ -58,5 +58,5 @@ def get_average_age_for_season(data, season)
     total_age += stats["age"].to_i
   end
   #return average age of season
-  return total_age / count 
+  return (total_age / count) 
 end
